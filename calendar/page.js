@@ -677,16 +677,7 @@ function selectRadioButton(value) {
  * Returns `date` unchanged if `colType` is `DateTime`.
  */
 function getAdjustedDate(date, colType) {
-  // If we know the timezone, we need to adjust it so that it looks the same.
-  // So be default we pretend that calendar renders document timezone.
-  if (docTimeZone && colType.startsWith('DateTime')) {
-    return new TZDate(date).tz(docTimeZone);
-  }
-  if (colType !== 'Date') { return date; }
-
-  // Like date.tz('UTC'), but accounts for DST differences.
-  const ms = date.valueOf() + (date.getTimezoneOffset() * 60000);
-  return new Date(ms);
+  return date;
 }
 
 // helper function to build a calendar event object from grist flat record
