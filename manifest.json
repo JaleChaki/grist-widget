@@ -1,0 +1,383 @@
+[
+  {
+    "name": "Action button",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/actionbutton/index.html",
+    "widgetId": "@gristlabs/widget-actionbutton",
+    "published": true,
+    "accessLevel": "full",
+    "renderAfterReady": true,
+    "description": "Build one or more buttons that send customizable actions (e.g. \"AddRecord\") to the Grist data engine.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-08-18T17:58:38-04:00"
+  },
+  {
+    "name": "Calendar",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/calendar/index.html",
+    "widgetId": "@gristlabs/widget-calendar",
+    "published": true,
+    "accessLevel": "full",
+    "renderAfterReady": true,
+    "archive": {
+      "domains": [
+        "uicdn.toast.com",
+        "maxcdn.bootstrapcdn.com",
+        "unpkg.com",
+        "cdn.jsdelivr.net"
+      ],
+      "entrypoints": [
+        "https://github.com/JaleChaki/grist-widget/blob/master/calendar/i18n/"
+      ]
+    },
+    "description": "Show records as events in a calendar view. Choose between daily, monthly, or yearly views.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-09-21T09:48:22+02:00"
+  },
+  {
+    "name": "Copy to clipboard",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/clipboard/index.html",
+    "widgetId": "@gristlabs/widget-clipboard",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Copy column values from records to your clipboard with a click of a button.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-08-18T17:58:38-04:00"
+  },
+  {
+    "name": "Custom widget builder",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/custom-widget-builder/index.html",
+    "widgetId": "@berhalak/custom-widget-builder",
+    "published": true,
+    "accessLevel": "none",
+    "renderAfterReady": true,
+    "description": "Build custom widgets with HTML and JavaScript, right inside Grist.",
+    "isGristLabsMaintained": false,
+    "authors": [
+      {
+        "name": "berhalak",
+        "url": "https://github.com/berhalak"
+      }
+    ],
+    "lastUpdatedAt": "2024-10-11T13:58:02+02:00"
+  },
+  {
+    "name": "Drop-down Widget",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/drop-down/index.html",
+    "widgetId": "@gristlabs/widget-drop-down",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Display a drop-down menu with options from a column.",
+    "authors": [
+      {
+        "name": "Antol Peshkov",
+        "url": "https://github.com/Antol"
+      }
+    ],
+    "isGristLabsMaintained": false,
+    "lastUpdatedAt": "2024-10-09T14:36:40+02:00"
+  },
+  {
+    "name": "Dropbox embedder",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/dropbox-embed/index.html",
+    "widgetId": "@gristlabs/dropbox-embed",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "View and access files from your Dropbox account.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-09-25T10:02:37-04:00"
+  },
+  {
+    "name": "Flashcards",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/flashcards/index.html",
+    "widgetId": "@gristlabs/flashcards",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Show records as flashcards, with a question on one side and an answer on the other.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-08-18T17:58:38-04:00"
+  },
+  {
+    "name": "Inspect record",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/inspect/onRecord.html",
+    "widgetId": "@gristlabs/widget-inspect#onRecord",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "View the raw representation of the selected record as JSON.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-09-25T10:02:37-04:00"
+  },
+  {
+    "name": "Inspect table",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/inspect/onRecords.html",
+    "widgetId": "@gristlabs/widget-inspect#onRecords",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "View the raw representation of all the table's records as JSON.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-09-25T10:02:37-04:00"
+  },
+  {
+    "name": "Inspect options",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/inspect/onOptions.html",
+    "widgetId": "@gristlabs/widget-inspect#onOptions",
+    "published": true,
+    "renderAfterReady": true,
+    "description": "View the options sent to this custom widget, and send your own custom options, for testing.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-09-25T10:02:37-04:00"
+  },
+  {
+    "name": "Inspect API",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/inspect/api.html",
+    "widgetId": "@gristlabs/widget-inspect#api",
+    "published": true,
+    "renderAfterReady": true,
+    "description": "An interactive introduction to the Grist Custom Widget API, with live code examples.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-09-25T10:02:37-04:00"
+  },
+  {
+    "name": "Invoices",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/invoices",
+    "widgetId": "@gristlabs/widget-invoices",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Generate printable invoices, with values filled in from the selected record.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-08-18T17:58:38-04:00"
+  },
+  {
+    "name": "Map",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/map/index.html",
+    "widgetId": "@gristlabs/widget-map#map",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Display locations on a map using either addresses or latitude and longitude coordinates..",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-08-18T17:58:38-04:00"
+  },
+  {
+    "name": "Markdown",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/markdown",
+    "widgetId": "@gristlabs/widget-markdown",
+    "published": true,
+    "accessLevel": "full",
+    "renderAfterReady": true,
+    "description": "View and format a record's text using Markdown syntax.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-08-18T17:58:38-04:00"
+  },
+  {
+    "name": "Notepad",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/notepad",
+    "widgetId": "@gristlabs/widget-notepad",
+    "published": true,
+    "accessLevel": "full",
+    "renderAfterReady": true,
+    "description": "View and format a record's text using a rich text editor.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-08-18T17:58:38-04:00"
+  },
+  {
+    "name": "Pivot table",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/pivottable/index.html",
+    "widgetId": "@gristlabs/widget-pivottable",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Build and modify a pivot table from a selected Grist table.",
+    "authors": [
+      {
+        "name": "jperon",
+        "url": "https://github.com/jperon"
+      }
+    ],
+    "lastUpdatedAt": "2024-09-25T10:02:37-04:00"
+  },
+  {
+    "name": "Print labels",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/printlabels/index.html",
+    "widgetId": "@gristlabs/widget-printlabels",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Customize and print labels directly from a selected Grist table.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-08-18T17:58:38-04:00"
+  },
+  {
+    "name": "Purchase orders",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/purchase-orders",
+    "widgetId": "@gristlabs/widget-purchase-orders",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Create printable purchase orders based on data from a selected record.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-08-18T17:58:38-04:00"
+  },
+  {
+    "name": "QR code",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/qrcode/index.html",
+    "widgetId": "@gristlabs/widget-qrcode",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Generate custom QR codes based on data from a selected record.",
+    "authors": [
+      {
+        "name": "jperon",
+        "url": "https://github.com/jperon"
+      }
+    ],
+    "lastUpdatedAt": "2024-09-25T10:02:37-04:00"
+  },
+  {
+    "name": "HTML viewer",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/renderhtml/index.html",
+    "widgetId": "@gristlabs/widget-renderhtml",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "View data from a selected record as rendered HTML.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-08-18T17:58:38-04:00"
+  },
+  {
+    "name": "Grist video player",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/rendervideo/index.html",
+    "widgetId": "@gristlabs/widget-rendervideo",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Embed videos from YouTube, Vimeo, Facebook Video, Google Drive and more.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-09-25T10:02:37-04:00"
+  },
+  {
+    "name": "Image viewer",
+    "url": "https://github.com/JaleChaki/grist-widget/blob/master/viewer/index.html",
+    "widgetId": "@gristlabs/widget-viewer",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "View images loaded from a URL.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2024-08-18T17:58:38-04:00"
+  }
+]
